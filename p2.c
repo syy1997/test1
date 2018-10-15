@@ -17,9 +17,7 @@ temp2*=i;
 return temp/temp2;
 }
 
-
-
-//(b)
+ //(b)
 double series(double x , int m){
 double sum = 0;
 for(int i =1; i<=m;i++){
@@ -33,10 +31,11 @@ return sum;
 //(c)
 void printTable(){
 for(int i =-5;i<=5;i++){
-printf("x=%d ",i)
-for(int j = 0; j<=10,j++){
- printf("%10.4f",term(i,j))
+printf("x=%d ",i);
+for(int j = 0; j<=10;j++){
+ printf("%10.4f",term(i,j));
 
-}
-}
-}
+   
+    
+    
+}}}
